@@ -8,6 +8,7 @@
 body{
     background-color: gainsboro;
     padding-bottom: 50px;
+    padding-top: 50px;
     
 }
 .container{
@@ -27,7 +28,11 @@ body{
 }
 .navbar{
     padding: 0px;
-}
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+} 
 @media (max-width: 991px){
     .navbar{
         flex-direction: column;
@@ -42,7 +47,9 @@ body{
         width: 100%;
         margin-left: 0px;
         text-align: center;
-
+    }
+    body{
+        padding-top: 70px;
     }
 }
 footer{
