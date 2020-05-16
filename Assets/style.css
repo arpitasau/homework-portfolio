@@ -16,6 +16,7 @@ body{
     margin-top: 30px;
     margin-left: 30px;
     width: 65%;
+    
 
 }
  .navbar .navbar-brand{
@@ -33,6 +34,9 @@ body{
     top: 0px;
     z-index: 1;
 } 
+.navbar-nav .nav-item {
+    padding-right:15px;
+}
 @media (max-width: 991px){
     .navbar{
         flex-direction: column;
@@ -54,26 +58,48 @@ body{
 }
 footer{
     background-color: grey;
-    position: fixed;
-    bottom: 0px;
     width: 100%;
     padding: 10px;
     text-align: center;
-    z-index: 1;
     border-top-style: solid;
     border-top-color: teal;
     border-top-width: 4px;
 }
 .heading{
     color: teal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.sub-heading{
+    color: teal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 15px;
+
 }
 hr{
     width: 95%;
-    color: darkslategray;
+    border-top: 2px;
+    border-style: solid ;
+    border-color: lightgrey;
 }
-#my-pic{
+.img-fluid{
     float: left;
     margin: 10px;
+}
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+i {
+    font-size: 40px;
+    color: rgb(0, 41, 128);
 }
 .sample-project{
     height: 150px;
