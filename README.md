@@ -9,7 +9,7 @@
 
    * About me page contains my image and current work profile and my contact details.
 
-   * Portfolio page displays my sample projects.
+   * Portfolio page displays my sample projects.[Please note that I added an example from last week's code refactor project, the code base was provided, I refactored the code and fixed some issues]
    
    * Contact page contains a form where user can add inputs like their name, email and message and click on Submit button to submit their details.
 
